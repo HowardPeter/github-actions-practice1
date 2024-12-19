@@ -19,7 +19,7 @@ jobs:
       - name: Check lint
         run: npm run lint
       - name: Run tests
-        run: npm test
+        run: npm run test
   build:
     needs: test
     runs-on: ubuntu-latest
